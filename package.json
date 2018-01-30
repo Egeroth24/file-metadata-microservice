@@ -1,0 +1,25 @@
+{
+    "name": "file-metadata-microservice",
+    "version": "1.0.0",
+    "description": "I can submit a file and recieve the file size in the JSON response.",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "express": "4.x.x",
+        "multer": "1.x.x"
+    },
+    "engines": {
+        "node": "8.x"
+    },
+    "repository": {
+        "url": "https://glitch.com/edit/#!/welcome-project"
+    },
+    "license": "MIT",
+    "keywords": [
+        "node",
+        "glitch",
+        "express"
+    ]
+}
