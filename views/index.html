@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>File Metadata Microservice</title>
+        <link id="favicon" rel="icon" href="/favicon.ico" type="image/x-icon">
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link rel="stylesheet" href="/style.css">
+    </head>
+    <body>
+        <div id="container">
+            <h1>File Metadata Microservice</h1>
+            <blockquote>
+                User Stories:
+                <ol>
+                    <li> I can submit a FormData object that includes a file upload.</li>
+                    <li> When I submit something, I will receive the file size in bytes within the JSON response.</li>
+                </ol>
+            </blockquote>
+            <h2>Usage:</h2>
+            <form action="/upload" method="post" enctype="multipart/form-data">
+                <input type="file" name="file" />
+                <br />
+                <br />
+                <input type="submit" value="Submit" />
+            </form>
+        </div>
+    </body>
+</html>
